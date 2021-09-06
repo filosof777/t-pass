@@ -1,0 +1,301 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.head {
+  padding: 30px 0;
+}
+
+.nav-item {
+  margin-left: 17px;
+}
+
+.nav-link,
+.nav-btn {
+  padding: 16px 26px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 5px;
+  line-height: 17px;
+  color: #0F2336;
+  transition: all 0.5s ease;
+}
+
+.nav-link:hover {
+  color: #7694b1;
+}
+
+.nav-btn:hover {
+  background: #0F2336;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.hero-sec {
+  padding-top: 125px;
+}
+
+.hero-title {
+  font-size: 55px;
+  line-height: 76px;
+  letter-spacing: 1.11px;
+  color: #00CCCC;
+}
+
+.title-black {
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 76px;
+  letter-spacing: 1.11px;
+  color: #0F2336;
+}
+
+.title-yellow {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 76px;
+  letter-spacing: 1.11px;
+  color: #F3AF47;
+}
+
+.btn {
+  padding: 16px 21px;
+  font-weight: bold;
+  font-size: 18px;
+  align-items: center;
+  display: flex;
+  width: 208px;
+  line-height: 22px;
+  color: #0F2336;
+  border: 1px solid #00CCCC;
+  box-sizing: border-box;
+  border-radius: 14px;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #00CCCC;
+  box-shadow: 0px 3px 18px rgba(0, 201, 201, 0.55);
+}
+
+.btn::after {
+  content: '';
+  background-image: url("../img/arrow.png");
+  width: 28px;
+  height: 18px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+.hero-sec {
+  position: relative;
+}
+
+.hero-sec::before {
+  content: '';
+  background-image: url("../img/hero-img.png");
+  display: inline-block;
+  width: 923px;
+  height: 790px;
+  left: 32%;
+  top: 25%;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+/* header end */
+
+/* statistic start */
+
+.statis-des {
+  padding-top: 158px;
+  position: relative;
+}
+
+.statis-list {
+  padding: 100px 20px;
+  position: absolute;
+  z-index: 1;
+  background: #fff;
+}
+
+.statis-item {
+  width: 325px;
+  padding-right: 20px;
+}
+
+.statis-item::before {
+  content: '';
+  width: 105px;
+  height: 105px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+
+.arrow::before {
+  background-image: url("../img/arrow-icon.png");
+}
+
+.procent::before {
+  background-image: url("../img/procent.png");
+}
+
+.cream::before {
+  background-image: url("../img/cream.png");
+}
+
+/* statistic end */
+
+/* phone start */
+
+.phone {
+  width: 1140px;
+}
+
+.img-phone,
+.phone-des,
+.slider {
+  margin-top: 500px;
+}
+
+.cont-box {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+  background-color: #F4F5F6;
+}
+
+.phone-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: #0F2336;
+}
+
+.phone-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #576D81;
+  width: 414px;
+}
+
+/* .slide {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  transition: all 0.5s ease;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.slide:hover {
+  background-color: #00CCCC;
+} */
+
+
+/* phone end */
+
+/* gifts start */
+
+.gift {
+  margin-top: 160px;
+  background: #F4F5F6;
+  top: 500px;
+}
+
+.gift-title {
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  color: #0F2336;
+}
+
+.gift-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #576D81;
+  width: 326px;
+}
+
+.gift-item {
+  margin: 30px 0;
+  width: 455px;
+  padding: 39px 31px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 32px rgba(15, 35, 54, 0.06);
+  border-radius: 8px;
+}
+
+.center-item {
+  margin-left: 40px;
+}
+
+/* gifts end */
+
+/* info start */
+
+.info-box {
+  background: #F4F5F6;
+  border-radius: 50px;
+  margin-top: 130px;
+  width: 1140px;
+  height: 540px;
+}
+
+.info-des {
+  padding-left: 80px;
+}
+
+.info-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 55px;
+  color: #0F2336;
+}
+
+.info-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #576D81;
+  width: 414px;
+}
+
+/* info end */
+
+
+/* home start */
+
+.home {
+  margin-top: 200px;
+}
+
+
+
+
+
+/* home end */
